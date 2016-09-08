@@ -1,0 +1,99 @@
+.myFont{
+    font-family: 'microsoft yahei', 'Times New Roman', 宋体, Times, serif;
+    font-size: 12px;
+}
+.loginForm{
+    margin-top: 10px;
+}
+.loginForm label{
+    padding-right: 0px;
+}
+.loginForm button{
+    font-size: 12px;
+    padding: 5px 28px 5px 28px;
+}
+.loginForm button:last-child{
+    margin-left: 20px;
+}
+header{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+header label{
+    margin-bottom: 0px;
+}
+.loginForm .form-group:last-child{
+    margin-top: 10%;
+}
+#submitBtn{
+   width: 90%;
+
+}
+#setBtn{
+    float: right;
+    position: relative;
+    left: -15px;
+    top: 3px;
+}
+#loginServerModal .modal-body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+#loginServerModal .form-group{
+    margin-bottom: 0px;
+}
+#loginServerModal .modal-footer{
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#loginServerModal button{
+    padding: 5px 8px 5px 8px;
+    font-size: 12px;
+}
+#loginServerModal .modal-dialog{
+    margin-top: 35%;
+}
+#mainHeader span{
+    position: relative;
+    top: 8px;
+    left: -18px;
+}
+#mainHeader input{
+    margin-left: 9px;
+}
+#mainHeader input:focus {
+    outline:none;
+}{
+
+}
+#mainFooter{
+    position: fixed;
+    bottom: 0px;
+}
+#mainFooter li{
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    margin: 0px;
+    padding: 0px;
+
+}
+footer{
+    width: 100%;
+}
+#mainFooter ul{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 8px 0px 8px 0px;
+}
+#mainFooter ul li label{
+    margin-bottom: 0px;
+}
+/*#mainFooter ul li span,#mainFooter ul li label{*/
+    /*vertical-align:middle*/
+/*}*/

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link href="file:///android_asset/resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="file:///android_asset/resource/css/mycss.css" rel="stylesheet">
+    <script src="file:///android_asset/resource/js/jquery.min.js"></script>
+    <script src="file:///android_asset/resource/js/bootstrap.min.js"></script>
+</head>
+
+<body class="myFont">
+<header class="text-center label-success">
+    <label>登陆</label>
+    <!--<button class="btn btn-sm btn-success pull-right" id="setBtn"  data-toggle="modal" data-target="#loginServerModal">设置</button>-->
+    <span class="glyphicon glyphicon-cog" id="setBtn" data-toggle="modal" data-target="#loginServerModal"> </span>
+</header>
+<form class="form-horizontal loginForm container" role="form" style="margin-top: 20px">
+    <div class="form-group">
+        <label for="firstname" class="col-sm-3 col-xs-3 control-label text-right">用户:</label>
+        <div class="col-sm-9 col-xs-9">
+            <input type="text" class="form-control" id="firstname" placeholder="用户名">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="lastname" class="col-sm-3 col-xs-3 control-label text-right">密码:</label>
+        <div class="col-sm-9 col-xs-9">
+            <input type="text" class="form-control" id="lastname" placeholder="密码">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="firstname" class="col-sm-3 col-xs-3 control-label text-right">验证码:</label>
+        <div class="col-sm-4 col-xs-4">
+            <input type="text" class="form-control" id="code" placeholder="获取" style="width: 60px">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="text-center">
+            <a type="submit" class="btn btn-success" href="file:///android_asset/main.html" id="submitBtn">登录</a>
+        </div>
+    </div>
+</form>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="loginServerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+
+                <form class="form-horizontal loginForm container" role="form" >
+                    <div class="form-group">
+                        <label for="ipAddress" class="col-sm-3 col-xs-3 col-md-3 control-label text-right">IP地址:</label>
+                        <div class="col-sm-9 col-xs-9 col-md-9">
+                            <input type="text" class="form-control" id="ipAddress" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="socket" class="col-sm-3 col-xs-3 col-md-3 control-label text-right">端口号:</label>
+                        <div class="col-sm-9 col-xs-9 col-md-9">
+                            <input type="text" class="form-control" id="socket">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <a type="button" class="btn btn-primary" href="main.html">确定</a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+</body>
+</html>
